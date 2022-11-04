@@ -32,6 +32,16 @@
                 app:framePosition="50"
                 app:keyPositionType="parentRelative"
                 app:percentY="0.5" />
+            <KeyPosition
+                app:motionTarget="@+id/moon"
+                app:framePosition="25"
+                app:keyPositionType="parentRelative"
+                app:percentY="0.6" />
+            <KeyPosition
+                app:motionTarget="@+id/moon"
+                app:framePosition="75"
+                app:keyPositionType="parentRelative"
+                app:percentY="0.6" />
         </KeyFrameSet>
 
         <!-- TODO: Add KeyFrameSet and KeyPosition -->

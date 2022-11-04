@@ -42,6 +42,26 @@
                 app:framePosition="75"
                 app:keyPositionType="parentRelative"
                 app:percentY="0.6" />
+            <KeyAttribute
+                app:motionTarget="@+id/moon"
+                app:framePosition="50"
+                android:rotation="-360" />
+            <KeyAttribute
+                app:motionTarget="@id/credits"
+                app:framePosition="70"
+                android:alpha="0.0" />
+            <KeyAttribute
+                app:motionTarget="@+id/moon"
+                app:framePosition="50"
+                android:scaleX="2" />
+            <KeyAttribute
+                app:motionTarget="@+id/moon"
+                app:framePosition="50"
+                android:scaleY="2" />
+            <KeyAttribute
+                app:motionTarget="@+id/moon"
+                app:framePosition="100"
+                android:rotation="-720" />
         </KeyFrameSet>
 
         <!-- TODO: Add KeyFrameSet and KeyPosition -->

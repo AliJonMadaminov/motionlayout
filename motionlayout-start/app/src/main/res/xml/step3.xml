@@ -26,6 +26,13 @@
                 app:targetId="@id/moon"
                 app:clickAction="toggle"
         />
+        <KeyFrameSet >
+            <KeyPosition
+                app:motionTarget="@id/moon"
+                app:framePosition="50"
+                app:keyPositionType="parentRelative"
+                app:percentY="0.5" />
+        </KeyFrameSet>
 
         <!-- TODO: Add KeyFrameSet and KeyPosition -->
     </Transition>
